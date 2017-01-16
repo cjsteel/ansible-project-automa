@@ -1,2 +1,3 @@
 # ansible-project-automa
-the automa ansible project is currently experimental
+
+The automa ansible project is currently experimental and is being used for testing.
