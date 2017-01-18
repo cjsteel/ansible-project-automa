@@ -1,3 +1,45 @@
+# file: .gitignore
+#
+# Description: Files (and directories) we do not want commited to our projects
+# repository
+
+# temp files
+*~
+
+# private files
+.private
+.prv
+
+# ansible retry files
+*.retry
+
+# ansible vault files
+.vault
+
+# ansible logs
+ansible.log
+
+# directories
+
+## variable directories
+#
+# If you want to commit your project publicly you may want to avoid including
+# variables located in group_vars and host_vars.
+#
+# group_vars/*
+# host_vars/*
+
+# roles
+#
+# If you want to keep your roles in separate repositories you might want to
+# uncomment the following:
+#
+roles/*
+
+## Below is a bunch of pythonic stuff you probably don't want in your 
+# repository.
+#
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
